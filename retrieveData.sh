@@ -14,8 +14,7 @@ mkdir data
 
 
 echo 'Retrieving Indian Pines...'
-wget 'http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat' -O data/indian_pines_corrected.mat
-wget 'http://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat' -O data/indian_pines_gt.mat
+# In the repo
 
 echo 'Retrieving University of Pavia...'
 wget 'http://www.ehu.eus/ccwintco/uploads/e/ee/PaviaU.mat' -O data/PaviaU.mat
