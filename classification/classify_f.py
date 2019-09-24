@@ -51,7 +51,8 @@ def my_metrics_classfier(real_labels, predicted_labels, labels):
 	return [overall_accuracy, average_accuracy, kappa]
 
 
-for namedset in ['indian','pavia']:
+#for namedset in ['indian','pavia']:
+for namedset in ['pavia']:
 	for tipoim in ['RAW', 'DEN']:
 		ev_oa = []
 		noise_levels = [0] if tipoim == "RAW" else [5,25,50,75,100]
@@ -79,7 +80,7 @@ for namedset in ['indian','pavia']:
 				sizeor = labels_or.shape
 				image_or  = image_or.reshape(-1,image_or.shape[-1])
 				labels_or = labels_or.reshape(-1)
-				if tipoim == "RAW": image_or = StandardScaler().fit_transform(image_or)
+				image_or = MinMaxScaler().fit_transform(image_or)
 				image  = image_or[labels_or!=0]
 				labels = labels_or[labels_or!=0]
 				labels -= 1
