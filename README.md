@@ -1,7 +1,7 @@
 # A Single Model CNN for Hyperspectral Image Denoising
 The Code for "A Single Model CNN for Hyperspectral Image Denoising". []
 ```
-J. M. Haut, M. E. Paoletti, J. Plaza, A. Plaza and J. Li.
+Alessandro Maffei, Juan M. Haut, Mercedes E. Paoletti, Javier Plaza, Lorenzo Bruzone and Antonio Plaza.
 A Single Model CNN for Hyperspectral Image Denoising.
 IEEE Transactions on Geoscience and Remote Sensing.
 DOI: 
