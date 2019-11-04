@@ -1,5 +1,4 @@
 old/
-trainset/*.mat
 # Windows default autosave extension
 *.asv
 
