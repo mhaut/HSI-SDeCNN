@@ -14,6 +14,11 @@ Submitted, 2019.
 
 ## Example of use
 
+### Dataset
+```
+Go to trainset folder and run "split_file.py"
+```
+
 ### Some tips
 
 ```
