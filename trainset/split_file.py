@@ -41,4 +41,4 @@ def cat_files(infiles, outfile, buffer=1024):
 
 for idfile in ["1","4"]:
 	#split_file("train_Wash" + idfile + ".mat", "train_Wash" + idfile + "_part", 80*1000*1000)
-	cat_files(["train_Wash" + idfile + "_part.0", "train_Wash" + idfile + "_part.1"], "train_Wash" + idfile + "_REEEEEEC.mat")
+	cat_files(["train_Wash" + idfile + "_part.0", "train_Wash" + idfile + "_part.1"], "train_Wash" + idfile + ".mat")
