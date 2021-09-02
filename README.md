@@ -5,7 +5,7 @@ Alessandro Maffei, Juan M. Haut, Mercedes E. Paoletti, Javier Plaza, Lorenzo Bru
 A Single Model CNN for Hyperspectral Image Denoising.
 IEEE Transactions on Geoscience and Remote Sensing.
 DOI: 10.1109/TGRS.2019.2952062
-Accepted for publication, 2019.
+vol. 58, no. 4, pp. 2516-2529, April 2020.
 ```
 
 ![HSI-SDeCNN](https://github.com/mhaut/HSI-SDeCNN/blob/master/images/denspectral.png)
